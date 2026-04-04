@@ -54,13 +54,18 @@ nav a:hover{
 /* Perfil: */
 
 main{
-
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  margin-top: 20px;
+  gap: 20px;
+  
 }
 
 section#ficha {
   background-color: var(--fundo-card);
   padding: 20px;
   border-radius: 10px;
+  grid-column: 2;
 }
 
 section#ficha img {
@@ -90,4 +95,13 @@ div#social {
   align-items: center;
   gap: 1em;
   margin-top: 10px;
+}
+
+div#social i {
+  color: var(--destaque);
+  transition: 0.3s;
+}
+
+div#social i:hover{
+  color: var(--destaque-inverso);
 }
