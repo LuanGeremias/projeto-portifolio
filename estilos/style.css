@@ -241,16 +241,16 @@ article h2 {
     grid-template-columns: 1fr 1fr;
   }
 
-  #projeto-container .projeto {
+#projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-  #projeto-container .projeto-info {
+#projeto-container .projeto-info {
     max-width: 80%;
   }
 
-  #projeto-container .foto {
+#projeto-container .foto {
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
