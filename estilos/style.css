@@ -197,7 +197,7 @@ article h2 {
   cursor: pointer;
 }
 
-#formacao-container .periodo {
+.periodo {
   font-size: 0.8em;
   font-weight: bold;
   color: var(--texto);
@@ -223,6 +223,10 @@ article h2 {
   border-radius: 10px;
   border-left: 5px solid var(--destaque-inverso);
   transition: 0.5s;
+}
+
+#projeto-container a {
+  color: var(--destaque-inverso);
 }
 
 #projeto-container .projeto:hover {
@@ -261,17 +265,17 @@ footer a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
-#projeto-container .projeto {
+  #projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-#projeto-container .projeto-info {
+  #projeto-container .projeto-info {
     max-width: 80%;
   }
 
-#projeto-container .foto {
-    aspect-ratio: 1/1;
+  #projeto-container .foto {
+    
     max-width: 20%;
     max-height: 200px;
   }
