@@ -218,7 +218,8 @@ article h2 {
   transition: 0.5s;
 }
 
-#projeto-container a {
+#projeto-container a, h3 {
+  text-decoration: underline;
   color: var(--destaque-inverso);
 }
 
