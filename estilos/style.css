@@ -100,6 +100,10 @@ section#ficha h1 {
   text-align: center;
 }
 
+section#ficha > p {
+  text-align: justify;
+}
+
 div#social {
   display: flex;
   font-size: 1.7em;
@@ -237,6 +241,35 @@ article h2 {
   border-radius: 10px;
 }
 
+
+#hobby-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+#hobby-container .hobbies {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--fundo-principal);
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 5px solid var(--destaque-inverso);
+  transition: 0.5s;
+}
+
+#hobby-container a, h3 {
+  text-decoration: underline;
+  color: var(--destaque-inverso);
+}
+
+#hobby-container .hobbies:hover {
+  border-left-width: 10px;
+  border-color: var(--destaque);
+  cursor: pointer;
+}
+
 footer {
   background-color: var(--destaque);
   color: var(--texto-inverso);
@@ -266,6 +299,10 @@ footer a:hover {
     top: 65px;
   }
 
+  section#ficha p {
+    text-align: left;
+  }
+
   section#detalhes {
     grid-column: 3 / 4;
   }
@@ -288,5 +325,9 @@ footer a:hover {
     aspect-ratio: 1 / 1;
     max-width: 20%;
     max-height: 200px;
+  }
+
+  #hobby-container .hobby-info {
+    max-width: 80%;
   }
 }
