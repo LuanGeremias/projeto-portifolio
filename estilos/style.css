@@ -331,3 +331,9 @@ footer a:hover {
     max-width: 80%;
   }
 }
+
+@media screen and (min-width: 1200px){
+  #projeto-container .foto {
+    margin-right: 30px;
+  }
+}
