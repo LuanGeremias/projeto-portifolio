@@ -63,8 +63,6 @@ nav a:hover{
     color: var(--destaque);
 }
 
-/* Perfil: */
-
 main{
   display: grid;
   grid-template-columns: auto 90vw auto;
